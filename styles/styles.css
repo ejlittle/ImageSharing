@@ -1,0 +1,239 @@
+@font-face {
+    font-family: 'DroidSerifRegular';
+    src: url('../fonts/DroidSerif-Regular-webfont.eot');
+    src: url('../fonts/DroidSerif-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DroidSerif-Regular-webfont.woff') format('woff'),
+         url('../fonts/DroidSerif-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/DroidSerif-Regular-webfont.svg#DroidSerifRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'GoodDogRegular';
+    src: url('../fonts/GoodDog-webfont.eot');
+    src: url('../fonts/GoodDog-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/GoodDogr-webfont.woff') format('woff'),
+         url('../fonts/GoodDog-webfont.ttf') format('truetype'),
+         url('../fonts/GoodDog-webfont.svg#GoodDogRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'DroidSerifRegular', Times, serif;
+	background: #DFAC41 url(../images/stripes.png) 0 0 repeat;
+}
+#sitewrapper {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	background: transparent;
+	padding: 15px 0 35px;
+}
+.wrapper {
+	width: 930px;
+	margin: 0 auto;
+	background: #FFF;
+	padding: 15px;
+}
+#header {
+	border-top: 1px solid #222;
+	border-bottom: 20px solid #222;
+	padding: 15px;
+}
+#logout {
+	float: right;
+	display: inline;
+	margin: 0.6em 0;
+}
+#header h1 {
+	font-family: 'GoodDogRegular', Arial, sans-serif;
+	color: #E23D28;
+	font-size: 48px;
+	float: left;
+	margin: 0;
+}
+#header h1 span {
+	font-family: 'DroidSerifRegular', Times, serif;
+	color: #000;
+	font-size: 30px;
+}
+#header ul {
+	list-style: none;
+	margin: 0 0 0 1em;
+	padding: 0;
+	float: left;
+}
+#header ul li {
+	float: left;
+}
+#header ul a {
+	background: #FFF;
+	padding: 0.5em;
+	text-decoration: underline;
+	color: #222;
+	border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;
+	display: block;
+	text-align: center;
+	margin: 0.6em 0 0.6em 1em;
+	float: left;
+}
+#header ul a:hover {
+	background: #222;
+	color: #FFF;
+	text-decoration: none;
+}
+#header ul #current {
+	background: #222;
+	color: #FFF;
+	text-decoration: none;
+}
+#banner {
+	padding: 15px 0 0;
+	border-bottom: 10px solid #222;
+}
+h2 {
+	font-weight: normal;
+}
+a img {
+	border: none;
+}
+.pic {
+	width: 280px;
+	padding: 0 15px;
+	margin: 15px 0;
+	float: left;
+	text-align: center;
+}
+.vid {
+	width: 435px;
+	padding: 0 15px;
+	margin: 15px 0;
+	float: left;
+	text-align: center;
+}
+.pic p, .vid p {
+	font-size: 24px;
+}
+.dwnld {
+	display: block;
+	font-size: 16px;
+	line-height: 20px;
+	margin: 0.5em auto;
+	padding: 5px 5px 5px 20px;
+	width: 35%;
+	background: #ccc url(../images/icon_download.png) 5px 50% no-repeat;
+	color: #000;
+	text-decoration: none;
+	border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;
+}
+.dwnld:hover {
+	background-color: #aaa;
+}
+.pic table, .vid table {
+	border-collapse: collapse;
+}
+.pic table, .pic tr, .pic td, .vid table, .vid tr, .vid td {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.pic td, .vid td {
+	vertical-align: middle;
+	border-bottom: 10px solid #222;
+}
+.pic td img {
+}
+.pic table a {
+	display: block;
+}
+#footer {
+	border-top: 15px solid #222;
+	padding: 10px 0;
+}
+#subnav {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#subnav li {
+	padding: 0;
+	margin: 0;
+}
+#prevpage, #nextpage {
+	background: #E23D28;
+	padding: 0.5em;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;
+	display: block;
+	text-align: center;
+	width: 25%;
+	margin: 1em auto;
+}
+#prevpage:hover, #nextpage:hover {
+	background: #c93523;
+}
+.clearfix {
+	clear: both;
+}
+#shadow {
+	width: 940px;
+	margin: 0 auto;
+	background: #999;
+	opacity: 0.5;
+	padding: 3px 0;
+}
+#winniethepooh {
+	position: absolute;
+	right: -125px;
+	z-index: 2;
+	bottom: 0;
+}
+
+/*  Login Form */
+
+.warning {
+	color: #E23D28;
+	font-weight: bold;
+	font-family: Courier, monospace;
+}
+#lform ul {
+	list-style: none;
+	padding: 15px;
+	margin: 1em auto;
+	border: 10px solid #eee;
+	width: 300px;
+}
+#lform li {
+	margin: 1em 0;
+}
+#lform label {
+	display: block;
+	float: left;
+	width: 100px;
+	padding-right: 15px;
+	text-align: right;
+}
+#lform input {
+	padding: 0;
+	margin: 0;
+}
+#login {
+	margin: 0 0 0 115px;
+	padding: 1px 6px;
+}
+
+/* Admin */
+
+#uploadImage ul {
+	list-style: none;
+	padding: 0;
+	margin: 1em 0;
+}
+#addupload {
+	font-size: 12px;
+}
